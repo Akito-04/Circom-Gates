@@ -77,7 +77,8 @@ Here’s a step-by-step guide to compile, deploy, and verify your zkSNARK circui
    - Compile the circuit with
 ```
      npx hardhat circom
-     ```
+
+```
         - This will generate the out directory with circuit intermediaries and the MultiplierVerifier.sol contract.
 
 3. Provide Input Data:
@@ -92,7 +93,8 @@ Here’s a step-by-step guide to compile, deploy, and verify your zkSNARK circui
    - Deploy the verifier to the Amoy testnet and verify the proof with:
  ```
      npx hardhat run scripts/deploy.ts --network amoy
-     ```
+
+ ```
         - This script will:
      1. Deploy MultiplierVerifier.sol to the Amoy testnet.
      2. Generate a proof with generateProof() using inputs (0,1).
