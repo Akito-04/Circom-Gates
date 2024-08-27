@@ -69,13 +69,13 @@ Here’s a step-by-step guide to compile, deploy, and verify your zkSNARK circui
 
 1. Install Dependencies:
    - Run:
-         ```
+```
      npm i
      
      ```
 2. Compile the Circuit:
-   - Compile the circuit with:
-         ```
+   - Compile the circuit with
+```
      npx hardhat circom
      ```
         - This will generate the out directory with circuit intermediaries and the MultiplierVerifier.sol contract.
@@ -90,7 +90,7 @@ Here’s a step-by-step guide to compile, deploy, and verify your zkSNARK circui
 
 4. Deploy Verifier and Verify Proof:
    - Deploy the verifier to the Amoy testnet and verify the proof with:
-         ```
+ ```
      npx hardhat run scripts/deploy.ts --network amoy
      ```
         - This script will:
