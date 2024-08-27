@@ -97,10 +97,10 @@ This will generate the out directory with circuit intermediaries and the Multipl
  ```
 
 This script will:
-     1. Deploy MultiplierVerifier.sol to the Amoy testnet.
-     2. Generate a proof with generateProof() using inputs (0,1).
-     3. Generate calldata with generateCallData().
-     4. Verify the proof with verifyProof() on the deployed verifier contract.
+1. Deploy MultiplierVerifier.sol to the Amoy testnet
+2. Generate a proof with generateProof() using inputs (0,1).
+3. Generate calldata with generateCallData().
+4. Verify the proof with verifyProof() on the deployed verifier contract.
 
 5. Check Verifier Contract:
  Verify your contract creation on [Amoy Testnet Polyscan](https://amoy.polygonscan.com/) by pasting your contract ID.
