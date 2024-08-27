@@ -74,12 +74,13 @@ Here’s a step-by-step guide to compile, deploy, and verify your zkSNARK circui
      
 ```
 2. Compile the Circuit:
-   - Compile the circuit with
+Compile the circuit with
 ```
      npx hardhat circom
 
 ```
-        - This will generate the out directory with circuit intermediaries and the MultiplierVerifier.sol contract.
+
+This will generate the out directory with circuit intermediaries and the MultiplierVerifier.sol contract.
 
 3. Provide Input Data:
    - Update input.json with your input values for the AND gate:
@@ -95,7 +96,7 @@ Here’s a step-by-step guide to compile, deploy, and verify your zkSNARK circui
      npx hardhat run scripts/deploy.ts --network amoy
  ```
 
-        - This script will:
+This script will:
      1. Deploy MultiplierVerifier.sol to the Amoy testnet.
      2. Generate a proof with generateProof() using inputs (0,1).
      3. Generate calldata with generateCallData().
