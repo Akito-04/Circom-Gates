@@ -72,7 +72,7 @@ Here’s a step-by-step guide to compile, deploy, and verify your zkSNARK circui
 ```
      npm i
      
-     ```
+```
 2. Compile the Circuit:
    - Compile the circuit with
 ```
