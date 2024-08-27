@@ -87,7 +87,7 @@ Here’s a step-by-step guide to compile, deploy, and verify your zkSNARK circui
        "a": "0",
        "b": "1"
      }
-        - This data will be used to generate the proof.
+   This data will be used to generate the proof.
 
 4. Deploy Verifier and Verify Proof:
    - Deploy the verifier to the Amoy testnet and verify the proof with:
@@ -102,9 +102,9 @@ Here’s a step-by-step guide to compile, deploy, and verify your zkSNARK circui
      4. Verify the proof with verifyProof() on the deployed verifier contract.
 
 5. Check Verifier Contract:
-   - Verify your contract creation on [Amoy Testnet Polyscan](https://amoy.polygonscan.com/) by pasting your contract ID.
+ Verify your contract creation on [Amoy Testnet Polyscan](https://amoy.polygonscan.com/) by pasting your contract ID.
   
-   - ### Directory Structure
+### Directory Structure
 **circuits**
 ```
 ├── multiplier
